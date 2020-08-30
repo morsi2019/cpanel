@@ -1,0 +1,149 @@
+/*This part has done by E.Aladdin Mohammed*/
+/*#84c4c8*/
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    width: 98.8%;
+
+}
+
+/*start starter template*/
+/*Start header*/
+
+.logo
+{
+    background-color: #21324e;
+
+    color: white;
+    text-align: center;
+    height: 60px;
+
+    /*padding: 20px;*/
+}
+
+
+.upper-menu
+{
+    background-color: #f7faff;
+
+}
+.upper-menu i.far
+{
+    font-size: 20px;
+}
+.dot
+{
+    height: 7px;
+    width: 7px;
+    background-color: #f6336f;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -3px;
+}
+
+/*End header*/
+/*Start sidebar*/
+@media screen and (max-width: 992px)  {
+
+    #sidebar
+    {
+        position: fixed ;
+        height: 100%;
+        top: 0;
+        display: inline-block;
+        width: 100%;
+        left: 0;
+        z-index: 99;
+        right: -3000px;
+        transition: all 0.8s ease-in-out;
+        -o-transition: all 0.8s ease-in-out;
+        -webkit-transition: all 0.8s ease-in-out;
+        -moz-transition: all 0.8s ease-in-out;
+
+    }
+
+}
+
+#sidebar
+{
+
+    background-color: #2a3a5b;
+
+}
+#sidebar a
+{
+    border: none;
+    transition: all .2s ease-in-out;
+    font-size: 15px;
+    margin: 10px 3px 10px 0;
+    padding:10px 10px;
+
+}
+#sidebar a i
+{
+    color: #4e6489;
+}
+#sidebar a:hover
+{
+    border: none;
+    background-color: #21324e;
+
+}
+.hamburger-icon
+{
+    cursor: pointer;
+    display: none;
+}
+.add-icon-parent
+{
+    position: fixed;
+    bottom: 23px;
+    right: 10px;
+    z-index: 99;
+}
+.add-icon
+{
+    position: relative !important;
+}
+.add-icon span{
+    position: absolute;
+    bottom: -36px;
+    font-size: 10px;
+    text-decoration: none;
+    left: 2px;
+    color: black;
+    width: 100%;
+}
+
+.side-collapse
+{
+    right: 0px !important;
+    overflow: auto;
+}
+.exit-sidebar
+{
+    font-size: 35px;
+    border: none;
+    background-color: transparent;
+    color: #f8f9fa;
+    float: right;
+
+}
+div.personal-image
+{
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+.personal-image button
+{
+    position: absolute;
+    left: 0;
+    bottom: -0px;
+}
+/*End main-content*/
+
+/*end starter template*/
+
+/*This part has done by E.Aladdin Mohammed*/
