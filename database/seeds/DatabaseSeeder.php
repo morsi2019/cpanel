@@ -13,12 +13,13 @@ class DatabaseSeeder extends Seeder
     {
 
          $this->call([
-                      CountrySeeder::class,
-                      ItemSeeder::class,
-                      OfferSeeder::class,
-                      OrderSeeder::class,
-                      Offer_order_itemSeeder::class,
-                      Order_itemSeeder::class
+                      // CountrySeeder::class,
+                      // ItemSeeder::class,
+                      // OfferSeeder::class,
+                      // OrderSeeder::class,
+                      // Offer_order_itemSeeder::class,
+                      // Order_itemSeeder::class
+                      UserSeeder::class
                     ]);
 
 
